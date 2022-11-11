@@ -284,3 +284,78 @@ footer .social img {
 .img-1-faq {
     width: 100%;
 }
+
+.mainFAQ{
+    margin: 0 auto;
+}
+
+.mainFAQ h1{
+    font-family: "Playfair Display", "Helvetica", "sans-serif";
+    color: #1D1C44;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+    margin-top: 40px;
+    background: #7C7C94;
+    width: 10%;
+    border-radius: 5%;
+    place-self: center;
+}
+
+.mainFAQ h2{
+    font-family: "Playfair Display", "Helvetica", "sans-serif";
+    color:#1D1C44 ;
+}
+
+.mainFAQ p {
+    font-family: 'Trebuchet MS', 'Lucida Sans', sans-serif;
+}
+
+.question1, .question3 {
+    display: grid;
+    grid-template-columns: 65% 35%;
+    grid-template-rows: 100%;
+    margin: 50px;
+}
+
+.question1_img, .question3_img {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    height: 200px;
+    place-self: center;
+}
+
+.question1 section, .question3 section {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    align-self: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+}
+
+.question2, .question5 {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    grid-template-rows: 100%;
+    margin: 50px;
+}
+
+.question2_img, .question5_img {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    height: 200px;
+    place-self: center;
+}
+
+.question2 section, .question5 section {
+    align-self: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+}
+
+.question4, .question6 {
+    margin: 50px;
+    text-align: left;
+}
