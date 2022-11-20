@@ -62,6 +62,8 @@ footer p a {
 }
 
 
+/*------------- ABOUT ME STYLE -------------*/
+
 #aboutme-main {
     background: rgba(247,235,237,255);
     margin-bottom: 0;
@@ -73,3 +75,50 @@ footer p a {
     margin-left: 20px;
     margin-right: 20px;
 }
+
+
+
+
+/*---------- MAKE YOUR ODER STYLE ----------*/
+
+.main-makeyourorder {
+    background: rgba(247,235,237,255);
+}
+
+.dropbtn {
+    background-color: transparent;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(236, 211, 225);
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 grba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: rgba(221, 221, 221, 0);
+    color: white;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e4100;}
